@@ -20,3 +20,20 @@
 .spellAnim .burst{animation:spinSpell 3.8s ease-in-out forwards}
 @media(min-width:1500px){.boardWrap{width:700px;height:830px}.usedToken{width:60px;height:60px}.seat.leftTop{left:28px}.seat.leftBottom{left:28px}.seat.rightTop{right:32px}.seat.rightBottom{right:32px}.diceBox{right:190px}.deck{right:44px}}
 @media(max-height:820px){.boardWrap{width:min(600px,38vw);height:700px}.usedToken{width:50px;height:50px}.seat.leftTop{top:112px}.seat.leftBottom{top:338px}.seat.rightTop{top:136px}.seat.rightBottom{top:374px}.diceBox{bottom:6px}.deck{bottom:6px}}
+@media (max-width: 950px) and (orientation: landscape){
+  body{
+    overflow:auto;
+    background:#08000f;
+  }
+
+  .screen{
+    width:1200px;
+    height:720px;
+    transform: scale(.62);
+    transform-origin: top left;
+  }
+
+  .overlay .count{
+    font-size:80px;
+  }
+}
