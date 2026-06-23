@@ -1,0 +1,8 @@
+{
+  "name": "abraca-online-final",
+  "version": "1.0.0",
+  "description": "朋友局出包魔法師 Online：圓桌、完整規則、動畫與音效掛點。",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2", "socket.io": "^4.7.5" }
+}
