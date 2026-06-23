@@ -40,18 +40,19 @@
 @media (max-width: 950px) and (orientation: landscape){
 
   .boardWrap{
-    top: 20px;
+    top:-20px;
   }
 
-  .self{
-    bottom: -35px;
+  .seat.self{
+    bottom:-60px;
   }
 
   .diceBox{
-    bottom: 20px;
+    bottom:20px;
   }
 
   .deck{
-    bottom: 20px;
+    bottom:20px;
   }
+
 }
