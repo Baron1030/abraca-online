@@ -37,3 +37,21 @@
     font-size:80px;
   }
 }
+@media (max-width: 950px) and (orientation: landscape){
+
+  .boardWrap{
+    top: 20px;
+  }
+
+  .self{
+    bottom: -35px;
+  }
+
+  .diceBox{
+    bottom: 20px;
+  }
+
+  .deck{
+    bottom: 20px;
+  }
+}
