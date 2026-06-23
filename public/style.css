@@ -43,16 +43,74 @@
     top:-20px;
   }
 
+  .seat{
+    width:180px;
+    min-height:96px;
+    padding:7px;
+  }
+
+  .seat.leftTop{
+    top:120px;
+  }
+
+  .seat.leftBottom{
+    top:330px;
+  }
+
+  .seat.rightTop{
+    top:130px;
+  }
+
+  .seat.rightBottom{
+    top:345px;
+  }
+
   .seat.self{
-    bottom:-60px;
+    width:240px;
+    min-height:84px;
+    bottom:-65px;
+    padding:7px;
+  }
+
+  .avatar img{
+    width:34px;
+    height:34px;
+  }
+
+  .hp{
+    font-size:11px;
+  }
+
+  .hand{
+    padding:4px;
+    gap:4px;
+  }
+
+  .stone{
+    width:34px;
+    height:43px;
+  }
+
+  .stone .num{
+    font-size:18px;
   }
 
   .diceBox{
-    bottom:20px;
+    width:90px;
+    min-height:78px;
+    bottom:14px;
+    right:145px;
+  }
+
+  .diceFace{
+    width:42px;
+    height:42px;
+    font-size:26px;
   }
 
   .deck{
-    bottom:20px;
+    width:96px;
+    min-height:78px;
+    bottom:14px;
   }
-
 }
